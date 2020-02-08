@@ -1,0 +1,207 @@
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  /* Remove default padding */
+  ul[class],
+  ol[class] {
+    padding: 0;
+  }
+
+  /* Remove default margin */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul[class],
+  ol[class],
+  li,
+  figure,
+  figcaption,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+
+  /* Set core body defaults */
+  body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+
+  /* Make images easier to work with */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Natural flow and rhythm in articles by default */
+  article>*+* {
+    margin-top: 1em;
+  }
+
+  /* Inherit fonts for inputs and buttons */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  html,
+  body {
+    overflow: auto;
+    height: auto;
+  }
+html {
+  box-sizing: border-box;
+  font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+
+}
+
+nav {
+  display: block;
+  width: 980px;
+  margin: 0 auto;
+  background: linear-gradient(rgb(114, 114, 114), #666 50%, #5e5e5e 45%);
+  height: 36px;
+  border-radius: 4px;
+  height: 36px;
+  position: relative;
+  top: 95px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 5px 5px;
+  font-size: 12px;
+  font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  z-index: 4;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.296875) 0 6px 5px;
+  }
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 1;
+  
+    font-weight: 600;
+    
+    border-color: #808080;
+     height: 36px;
+     cursor: pointer;
+}
+
+header{
+  height: 552px;
+  background: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') no-repeat 50% 100%;
+  background-color: transparent;
+  
+}
+
+.top_text h1 {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 34px;
+  line-height: 45px;
+  font-family: "Lucida Grande";
+  position: relative;
+  top: 145px;
+  font-weight: 100;
+}
+
+.middle_text h2 {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 180px;
+    color: white;
+    font-weight: 100;
+    font-size: 23px;
+}
+
+.last_p h2 {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 224px;
+    color: white;
+    font-weight: 100;
+}
+
+.bottom_pics ul {
+  display: flex;
+  list-style: none;
+}
+
+.right_footer ul {
+  display: flex;
+  list-style: none;
+}
+
+.stryt-line_footer {
+  display: flex;
+}
+
+.left_footer {
+      float: left;
+      clear: both;
+      width: 49%;
+      padding-top: 1.5em;
+      text-align: left;
+      font: 12px/18px "Lucida Grande",
+      "Lucida Sans Unicode",
+      Helvetica,
+      Arial,
+      Verdana,
+      sans-serif;
+}
+
+.right_footer {
+      float: right;
+      width: 51%;
+      padding-top: 1.5em;
+      text-align: right;
+      font: 12px/18px "Lucida Grande",
+      "Lucida Sans Unicode",
+      Helvetica,
+      Arial,
+      Verdana,
+      sans-serif;
+}
+
+.bottom_footer {
+  text-align: left;
+      color: #6e6e6e;
+      font-size: .8334em;
+      line-height: 1.2;
+}
+
+
+
+
+
+
