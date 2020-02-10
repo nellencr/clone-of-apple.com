@@ -74,8 +74,8 @@ html {
 nav {
   display: block;
   width: 980px;
-  margin: 0 auto;
   background: linear-gradient(rgb(114, 114, 114), #666 50%, #5e5e5e 45%);
+  margin: 0 auto;
   height: 36px;
   border-radius: 4px;
   height: 36px;
@@ -91,9 +91,9 @@ nav {
 
 
 nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
 }
 
 nav a {
@@ -106,26 +106,53 @@ nav li {
   justify-content: center;
   align-content: center;
   flex: 1;
-  
-    font-weight: 600;
-    
-    border-color: #808080;
-     height: 36px;
-     cursor: pointer;
+  margin: auto;
+  font-weight: 600;
+  border-color: #808080;
+  height: 36px;
+  cursor: pointer;
+}
+
+nav ul li a {
+  margin: auto;
+}
+
+.fa-search {
+  top: 6px;
+  right: 47px;
+  position: relative;
+}
+
+.fa-apple {
+  font-size: 24px;
+}
+
+div.input input#input {
+  width: 106px;
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  border-width: 0px 2px 0px 1px;
+  color: gray;
+  border-radius: 9px;
+  background: transparent;
+  border: 1px solid gray;
+  outline: none;
 }
 
 header{
   height: 552px;
   background: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') no-repeat 50% 100%;
   background-color: transparent;
-  
+  position: relative;
+  top: -12px;
 }
-
+  
 .top_text h1 {
   color: white;
   text-align: center;
   margin: 0 auto;
-  font-size: 34px;
+  font-size: 46px;
   line-height: 45px;
   font-family: "Lucida Grande";
   position: relative;
@@ -134,27 +161,32 @@ header{
 }
 
 .middle_text h2 {
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-    top: 180px;
-    color: white;
-    font-weight: 100;
-    font-size: 23px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 180px;
+  color: white;
+  font-weight: 100;
+  font-size: 23px;
 }
 
 .last_p h2 {
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-    top: 224px;
-    color: white;
-    font-weight: 100;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 224px;
+  color: white;
+  font-weight: 100;
+}
+
+.bottom_pics {
+  width: 1332px;
 }
 
 .bottom_pics ul {
   display: flex;
   list-style: none;
+  margin: -11px -18px 3px -38px;
 }
 
 .right_footer ul {
@@ -167,38 +199,38 @@ header{
 }
 
 .left_footer {
-      float: left;
-      clear: both;
-      width: 49%;
-      padding-top: 1.5em;
-      text-align: left;
-      font: 12px/18px "Lucida Grande",
-      "Lucida Sans Unicode",
-      Helvetica,
-      Arial,
-      Verdana,
-      sans-serif;
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .right_footer {
-      float: right;
-      width: 51%;
-      padding-top: 1.5em;
-      text-align: right;
-      font: 12px/18px "Lucida Grande",
-      "Lucida Sans Unicode",
-      Helvetica,
-      Arial,
-      Verdana,
-      sans-serif;
+  padding-top: 1.5em;
+  text-align: right;
 }
-
+     
 .bottom_footer {
   text-align: left;
-      color: #6e6e6e;
-      font-size: .8334em;
-      line-height: 1.2;
+  color: #6e6e6e;
+  font-size: 10px;
+  margin-bottom: 30px;
 }
+
+footer {
+  margin: 0 auto;
+  width: 999px;
+  font-size: 10px;
+  text-align: center;
+  font-family:  "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+}
+  
 
 
 
