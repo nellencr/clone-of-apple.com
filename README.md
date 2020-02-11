@@ -8,7 +8,7 @@ HTML
 CSS
 Font Awesome
 
-##screenshoot
+## screenshoot
 
 ![](images/screenshoot.png)
 
@@ -33,7 +33,7 @@ You are welcome to make contributions to the repository. Contributions may be ma
 You may find the issues page on: https://github.com/nellencr/Form-for-Collecting-Data/issues
 
 
- **Author**
+ ## Author
  
 Nela GitHub: @nellencr
 
