@@ -94,6 +94,7 @@ nav ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
+  padding: 0;
 }
 
 nav a {
@@ -108,9 +109,11 @@ nav li {
   flex: 1;
   margin: auto;
   font-weight: 600;
-  border-color: #808080;
   height: 36px;
   cursor: pointer;
+   border-width: 0 0.1rem;
+   border-style: outset;
+   border-color: #7d7c7c;
 }
 
 nav ul li a {
@@ -118,9 +121,10 @@ nav ul li a {
 }
 
 .fa-search {
-  top: 6px;
-  right: 47px;
+  top: 8px;
+  right: 40px;
   position: relative;
+  color: white;
 }
 
 .fa-apple {
@@ -138,6 +142,15 @@ div.input input#input {
   background: transparent;
   border: 1px solid gray;
   outline: none;
+  margin-right: 4px;
+}
+
+nav li:last-child {
+  border-right: none;
+  cursor: default;
+}
+.input {
+  width: 134px;
 }
 
 header{
@@ -181,12 +194,13 @@ header{
 
 .bottom_pics {
   width: 1332px;
+  margin: auto
 }
 
 .bottom_pics ul {
   display: flex;
   list-style: none;
-  margin: -11px -18px 3px -38px;
+  margin: -11px -18px 3px -50px;
 }
 
 .right_footer ul {
