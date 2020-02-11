@@ -40,4 +40,5 @@ You may find the issues page [here](https://github.com/nellencr/clone-of-apple.c
 Nela GitHub: @nellencr
 
 Linkedin: Nela komane
+# Clone of old Apple.com page
 
