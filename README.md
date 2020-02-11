@@ -5,7 +5,9 @@ It is the frontend clone for the apple.com old page. The page have icons and app
 
 ## Built With
 HTML
+
 CSS
+
 Font Awesome
 
 ## screenshoot
@@ -30,7 +32,7 @@ You may use the following steps to get a local copy:
 
 You are welcome to make contributions to the repository. Contributions may be made through issues comments and feature requests.
 
-You may find the issues page on: https://github.com/nellencr/Form-for-Collecting-Data/issues
+You may find the issues page [here](https://github.com/nellencr/clone-of-apple.com/issues)
 
 
  ## Author
